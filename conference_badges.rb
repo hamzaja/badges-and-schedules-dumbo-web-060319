@@ -8,5 +8,5 @@ def batch_badge_creator(a)
 end
 def assign_rooms(a)
   for i <= 6
-  puts
+  puts "Hello,#{a[i]} You'll be assigned to #{i+}!"
   
