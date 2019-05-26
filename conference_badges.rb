@@ -1,5 +1,5 @@
 def badge_maker(a)
-  "Hello, my name is #{a}."
+  a.each{|x| "Hello, my name is #{x}."}
 end
 def batch_badge_creator(a)
   a.each do |x|
