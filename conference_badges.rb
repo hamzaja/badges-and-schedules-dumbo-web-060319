@@ -10,6 +10,7 @@ def assign_rooms(a)
   for i in 0..6
   puts "Hello,#{a[i]} You'll be assigned to #{i+1}!"
 end
+end
 def printer()
   badge_maker()
   assign_rooms()
