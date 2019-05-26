@@ -8,5 +8,10 @@ def batch_badge_creator(a)
 end
 def assign_rooms(a)
   for i in 0..6
-  puts "Hello,#{a[i]} You'll be assigned to #{i+}!"
+  puts "Hello,#{a[i]} You'll be assigned to #{i+1}!"
+end
+def printer()
+  badge_maker()
+  assign_rooms()
+end
   
