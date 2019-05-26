@@ -6,3 +6,7 @@ def batch_badge_creator(a)
     puts badge_maker(x)
   end
 end
+def assign_rooms(a)
+  for i <= 6
+  puts
+  
